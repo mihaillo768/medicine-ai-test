@@ -1,0 +1,24 @@
+@import './tokens.css';
+@import './typography.css';
+@import './layout.css';
+@import './shell.css';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--color-text-primary);
+  background-color: var(--color-bg-page);
+}

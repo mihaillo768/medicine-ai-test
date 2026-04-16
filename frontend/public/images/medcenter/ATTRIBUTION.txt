@@ -1,0 +1,2 @@
+Изображения загружены с Wikimedia Commons; лицензии указаны на страницах файлов.
+Список файлов: см. scripts/download_site_images.py (ASSETS).

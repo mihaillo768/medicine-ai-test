@@ -1,0 +1,48 @@
+/**
+ * Design tokens from Figma — collection Medcenter / Tokens (export_tokens).
+ * Numeric spacing/radius values normalized to px for CSS.
+ */
+:root {
+  /* Colors */
+  --color-bg-page: rgb(244, 247, 246);
+  --color-bg-surface: rgb(255, 255, 255);
+  --color-text-primary: rgb(26, 46, 50);
+  /* Чуть темнее для лучшего контраста на --color-bg-page (WCAG для обычного текста) */
+  --color-text-secondary: rgb(68, 86, 90);
+  --color-accent-default: rgb(13, 107, 111);
+  --color-accent-hover: rgb(9, 84, 86);
+  --color-border-subtle: rgb(216, 227, 228);
+  --color-semantic-error: rgb(180, 35, 24);
+  --color-bg-muted: rgb(232, 243, 244);
+  /* Text on filled accent (buttons Primary) */
+  --color-text-on-accent: rgb(255, 255, 255);
+  /* Secondary button hover surface */
+  --color-bg-control-hover: rgb(244, 247, 246);
+  /* Focus ring (buttons, inputs) */
+  --focus-ring-color: rgb(13, 107, 111);
+  --focus-ring-offset: 2px;
+
+  /* Spacing — 8px grid (Figma variables space-8 … space-32) */
+  --space-unit: 8px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+
+  /* Radius */
+  --radius-8: 8px;
+  --radius-12: 12px;
+  --radius-16: 16px;
+
+  /* Layout — align with frontend plan: 1280 content, 80 side @1440; 358 @390 with 16 side */
+  --container-max-width: 1280px;
+  --container-padding-x: 16px;
+  --breakpoint-desktop: 1280px;
+}
+
+@media (min-width: 1280px) {
+  :root {
+    --container-padding-x: 80px;
+  }
+}

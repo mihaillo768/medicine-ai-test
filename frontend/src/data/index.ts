@@ -1,0 +1,7 @@
+export * from '@/data/types'
+export * from '@/data/imageUrls'
+export * from '@/data/services'
+export * from '@/data/doctors'
+export * from '@/data/blog'
+export * from '@/data/prices'
+export * from '@/data/site'

@@ -1,0 +1,91 @@
+/**
+ * Text styles from Figma local styles (get_styles): Heading/H1–H3, Body, Caption, Button/Label.
+ * Font: Inter (see main.css body).
+ */
+
+.text-h1 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0;
+  color: var(--color-text-primary);
+}
+
+.text-h2 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0;
+  color: var(--color-text-primary);
+}
+
+.text-h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0;
+  color: var(--color-text-primary);
+}
+
+.text-body {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: var(--color-text-primary);
+}
+
+.text-caption {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: var(--color-text-secondary);
+}
+
+.text-button {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: var(--color-text-primary);
+}
+
+/* Default heading scale in article-style flow (optional baseline) */
+.prose h1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0;
+  color: var(--color-text-primary);
+}
+
+.prose h2 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0;
+  color: var(--color-text-primary);
+}
+
+.prose h3 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0;
+  color: var(--color-text-primary);
+}
+
+.prose p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: var(--color-text-primary);
+}
